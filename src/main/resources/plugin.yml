@@ -1,5 +1,6 @@
 name: Komut
 main: me.komut.KomutPlugin
 version: 1.0
+author: onurr_k
 api-version: 1.20
 folia-supported: true
