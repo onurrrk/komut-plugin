@@ -1,0 +1,4 @@
+komutlar:
+  aacver:
+    calistirilacak: lp user kullanıcı parent set AAc
+    perm: aac.verkullan
