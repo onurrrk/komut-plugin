@@ -1,33 +1,33 @@
 # 🧩 Komut
 
-Minecraft sunucularınızda, yapılandırılabilir özel komutlar tanımlamanıza olanak sağlayan hafif ve esnek bir eklentidir. Konsol komutlarını oyuncular üzerinden tetiklemek için kullanılır.
+A lightweight and flexible plugin that allows you to define configurable custom commands on your Minecraft servers. Used to trigger console commands via players.
 
-## 🔍 Özellikler
+## 🔍 Features
 
-- `config.yml` dosyasından sınırsız komut tanımı
-- Her komut için özel yetki belirleyebilme
-- Konsol üzerinden otomatik komut çalıştırma
-- Dinamik komut kaydı 
-- Folia uyumlu çalışır
+- Unlimited command definitions via `config.yml`
+- Permission control per command
+- Automatically executes commands as console
+- Dynamic command registration
+- Fully compatible with Folia
 
-## 🧪 Desteklenen Forklar
+## 🧪 Supported Forks
 
-| Fork / Yapı | Destek Durumu |
-|-------------|----------------|
-| ✅ Paper     | Tam uyumlu     |
-| ✅ Purpur    | Tam uyumlu     |
-| ✅ Folia     | Tam uyumlu     |
-| ✅ Spigot    | Uyumlu         |
-| ⚠️ Bukkit    | Kısmi destek   |
+| Fork / Type  | Support Status |
+|--------------|----------------|
+| ✅ Paper      | Fully supported |
+| ✅ Purpur     | Fully supported |
+| ✅ Folia      | Fully supported |
+| ✅ Spigot     | Supported       |
+| ⚠️ Bukkit     | Partial support |
 
-## ⚙️ Kurulum
+## ⚙️ Installation
 
-1. `Komut.jar` dosyasını `plugins/` klasörüne atın.
-2. Sunucunuzu başlatın.
-3. `plugins/Komut/config.yml` dosyasını düzenleyerek komutlarınızı tanımlayın.
-4. Sunucunuzu yeniden başlatın.
+1. Place the `Komut.jar` file into the `plugins/` directory.
+2. Start your server.
+3. Define your commands by editing the `plugins/Komut/config.yml` file.
+4. Restart your server.
 
-## 📁 Config Örneği
+## 📁 Config Example
 
 ```yaml
 komutlar:
